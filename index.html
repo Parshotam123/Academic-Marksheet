@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Academic Results Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>🎓 Academic Results Tracker</h2>
+
+    <div id="input-panel">
+        <label for="studentNameInput">Student Name:</label>
+        <input type="text" id="studentNameInput" class="result-input">
+
+        <label for="mathsScoreInput">Maths Score (Out of 100):</label>
+        <input type="number" id="mathsScoreInput" class="result-input">
+
+        <label for="csScoreInput">Computer Science Score (Out of 100):</label>
+        <input type="number" id="csScoreInput" class="result-input">
+
+        <button onclick="recordScore()" id="submit-btn">Record Score</button>
+    </div>
+
+    <h2>Recorded Results</h2>
+    <div id="output-cards"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

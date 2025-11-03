@@ -1,0 +1,84 @@
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            color: #333;
+        }
+
+        h2 {
+            margin-top: 25px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        #input-panel {
+            display: flex;
+            flex-direction: column; 
+            max-width: 300px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        label {
+            margin-top: 10px;
+            margin-bottom: 3px;
+            font-weight: bold;
+        }
+
+        .result-input {
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+        #submit-btn {
+            padding: 10px 15px;
+            cursor: pointer;
+            background-color: #aaa;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            margin-top: 10px;
+        }
+
+
+        #output-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .result-card {
+            width: 250px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .result-card h3 {
+            margin: 0 0 10px 0;
+            color: #aaa;
+            font-size: 1.2em;
+        }
+
+        .data-row {
+            padding: 2px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .tag {
+            padding: 4px 8px;
+            border-radius: 3px;
+            color: rgb(183, 98, 98);
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-top: 10px;
+            display: block; 
+            text-align: center;
+        }
+
+        .status-pass { background: rgb(96, 179, 96); }
+        .status-fail { background: rgb(133, 88, 88); }
